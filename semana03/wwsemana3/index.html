@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Semana 3 - HTML5 Semántico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Primera Página Web con HTML5</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#contenido">Contenido</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+
+        <section>
+            <h2>Introducción</h2>
+            <p>
+                Esta página demuestra el uso de <strong>HTML5 semántico</strong> y una
+                estructura <em>organizada y profesional</em>.
+            </p>
+        </section>
+
+        <section id="contenido">
+            <h2>Contenido Principal</h2>
+
+            <article>
+                <h3>Listas</h3>
+
+                <p>Ejemplo de lista ordenada:</p>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>GitHub</li>
+                </ol>
+
+                <p>Ejemplo de lista desordenada:</p>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Live Server</li>
+                    <li>Navegador Web</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Tabla de Ejemplo</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lenguaje</th>
+                            <th>Uso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Estructura</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Diseño</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Interactividad</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>Multimedia</h3>
+
+                <img src="assets/img/imagen1.jpg" alt="Imagen de ejemplo">
+
+                <video controls width="400">
+                    <source src="assets/video/video1.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+
+            <form>
+                <label>Nombre:</label><br>
+                <input type="text" name="nombre" required><br><br>
+
+                <label>Correo:</label><br>
+                <input type="email" name="correo" required><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p>
+                Visita <a href="https://github.com" target="_blank">GitHub</a> para más información.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Proyecto Semana 3</p>
+    </footer>
+
+</body>
+</html>
