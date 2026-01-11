@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semana03\\semana03.csproj",
-      "projectName": "semana03",
-      "projectPath": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semana03\\semana03.csproj",
+      "projectUniqueName": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semena5\\semena5.csproj",
+      "projectName": "semena5",
+      "projectPath": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semena5\\semena5.csproj",
       "packagesPath": "C:\\Users\\naula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semana03\\obj\\",
+      "outputPath": "C:\\Users\\naula\\OneDrive\\Desktop\\Desarrollo de aplicaciones wed\\Desarrollo-de-aplicaciones-web-\\semena5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\naula\\AppData\\Roaming\\NuGet\\NuGet.Config"
