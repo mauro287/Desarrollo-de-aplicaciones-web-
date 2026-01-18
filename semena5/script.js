@@ -1,22 +1,33 @@
-body {
-    font-family: Arial;
-}
+const url = document.getElementById("url");
+const gallery = document.getElementById("gallery");
+let selected = null;
 
-input {
-    display: block;
-    margin-bottom: 5px;
-    padding: 5px;
-}
+document.getElementById("add").addEventListener("click", () => {
+    if (!url.value) return;
 
-p {
-    color: red;
-    font-size: 12px;
-}
+    const img = document.createElement("img");
+    img.src = url.value;
 
-.valido {
-    border: 2px solid green;
-}
+    img.onclick = () => {
+        if (selected) selected.classList.remove("selected");
+        selected = img;
+        img.classList.add("selected");
+    };
 
-.invalido {
-    border: 2px solid red;
-}
+    gallery.appendChild(img);
+    url.value = "";
+});
+
+document.getElementById("remove").addEventListener("click", () => {
+    if (selected) {
+        selected.remove();
+        selected = null;
+    }
+});
+
+document.addEventListener("keydown", e => {
+    if (e.key === "Delete" && selected) {
+        selected.remove();
+        selected = null;
+    }
+});
