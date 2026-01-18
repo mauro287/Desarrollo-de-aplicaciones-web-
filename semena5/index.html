@@ -2,24 +2,38 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería Dinámica JS</title>
+    <title>Formulario JS</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Mi Galería Interactiva</h1>
-        <div class="controls">
-            <input type="url" id="imageUrl" placeholder="Pega la URL de la imagen aquí...">
-            <button id="addBtn">Agregar Imagen</button>
-            <button id="deleteBtn" class="btn-danger">Eliminar Seleccionada</button>
-        </div>
-    </header>
+<h2>Formulario de Registro</h2>
 
-    <main id="gallery" class="gallery-container">
-        </main>
+<form id="formulario">
+    <label>Nombre</label>
+    <input type="text" id="nombre">
+    <p id="errorNombre"></p>
 
-    <script src="script.js"></script>
+    <label>Correo</label>
+    <input type="email" id="correo">
+    <p id="errorCorreo"></p>
+
+    <label>Contraseña</label>
+    <input type="password" id="password">
+    <p id="errorPassword"></p>
+
+    <label>Confirmar Contraseña</label>
+    <input type="password" id="confirmar">
+    <p id="errorConfirmar"></p>
+
+    <label>Edad</label>
+    <input type="number" id="edad">
+    <p id="errorEdad"></p>
+
+    <button type="submit" id="enviar" disabled>Enviar</button>
+    <button type="reset">Reiniciar</button>
+</form>
+
+<script src="script.js"></script>
 </body>
 </html>
