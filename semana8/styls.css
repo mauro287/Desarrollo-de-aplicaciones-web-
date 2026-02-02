@@ -1,0 +1,12 @@
+
+header {
+  background: linear-gradient(90deg, #000, #444);
+}
+h2 {
+  color: hsl(135, 47%, 30%);
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}

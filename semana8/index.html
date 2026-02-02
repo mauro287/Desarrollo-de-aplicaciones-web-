@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licorería Don Isaac</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-img {
+      width: 100%;
+      max-height: 500px; 
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark mb-4">
+    <div class="container">
+      <span class="navbar-brand h1 mb-0">Licorería Don Isaac</span>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <img src="fachada.jpg" class="hero-img" alt="Fachada Licorería">
+      </div>
+    </div>
+
+    <div class="row">
+      <section class="col-md-6">
+        <h3 class="mb-4">Productos</h3>
+        <table class="table table-hover">
+          <tbody>
+            <tr><td>Tequila Don Isaac</td><td class="text-end">$25</td></tr>
+            <tr><td>Whisky Premium</td><td class="text-end">$40</td></tr>
+            <tr><td>Ron Añejo</td><td class="text-end">$30</td></tr>
+            <tr><td>Ron Añejo Special</td><td class="text-end">$35</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <aside class="col-md-6">
+        <h3 class="mb-4">Contacto</h3>
+        <form id="contactForm">
+          <label class="form-label text-muted">Nombre</label>
+          <input type="text" class="form-control mb-3" placeholder="Correo" required>
+          <button type="submit" class="btn btn-primary w-100 mb-2">Enviar</button>
+        </form>
+        <button id="alertButton" class="btn btn-warning w-100 text-dark">Probar Alerta</button>
+      </aside>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
